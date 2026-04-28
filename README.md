@@ -1,4 +1,4 @@
-# XState Linux OS Emulator — clean-room IA-32/Linux runtime
+# syscallr.js 
 
 This repository is a clean-room browser/Node Linux userspace emulator. It keeps the original emulator surface, adds XState-style actor orchestration, and implements real i386 ELF execution, virtual memory, Linux `int 0x80` syscalls, tar rootfs mounting, writable overlays, package tar installation, networking adapters, CLI commands, tests, and benchmarks.
 
